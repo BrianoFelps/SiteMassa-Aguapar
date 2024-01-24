@@ -105,6 +105,10 @@ header ul {
     width: 100%;
 }
 
+#footer {
+    clear:both;
+}
+
 #informaçõesgerais {
     background-color: #e5e5e5;
     padding-top: 1.5em;
@@ -129,9 +133,204 @@ header ul {
     width: 100%;
 }
 
+.auto {
+    font-family: kalinga;
+    background-color: #dfdfdf;
+    display: inline-block;
+    margin-bottom: 2em;
+}
+
+.auto h2{
+
+    font-family: Arial;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #226B74;
+    background-color: #d6d6d6;
+    padding: 10px;
+}
+
+.formas-contato-home ul {
+    height: 2em;
+    padding-top: 0.5em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+}
+
+.item-list ul {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0.75em;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.auto ul li {
+    list-style-type: none;
+    float: left;
+    font-family: kalinga;
+    color: #3a3a3a;
+    text-decoration: none;
+    margin-left: 10px;
+    width: 198px;
+}
+
+.item-list ul li{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0.25em;
+    margin-left: 1.5em;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.formas-contato-home .item-list ul li {
+    margin: 0.5em 0.5em 1em 0;
+    width: 156px;
+}
+
+.barra .item-list UL LI {
+    margin: 0.5em 0 0 1em; 
+    margin: 0.6em 0 0 0.5em;
+}
+
+.auto ul li a {
+    color: #3a3a3a;
+    text-decoration: none;
+    font-size: 12px;
+    list-style-type: none;
+}
+
 .campoConteudo a img {
     width: 1000px;
     height: 565px;
+}
+
+#informaçõesgerais .barra .auto img {
+    vertical-align: middle;
+}
+
+.formas-contato-home img {
+    float: left;
+    margin-right: 0.4em;
+}
+
+#informaçõesgerais {
+    background-color: #355993;
+    padding-bottom: 1.5em;
+}
+
+.assinatura {
+    width: 1020px;
+    margin: 0 auto;
+    background: url("../RES/logo-aguapar-br.png") no-repeat center left;
+    border-top: 1px solid #97b8eb;
+    padding: 2em 0 0.5em;
+    text-align: right;
+}
+
+.assinaturacoluna.endereco {
+    margin-right: 4em;
+}
+
+.assinaturacoluna {
+    display: inline-block;
+    border-left: 1px solid #244579;
+    min-height: 110px;
+    padding: 0 1.2em;
+    overflow: auto;
+    vertical-align: top;
+}
+
+#informaçõesgerais p {
+    color: #315a9c;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: left;
+    font-family: Arial;
+}
+
+p.assinaturanome {
+    font-size: .85em!important;
+    font-weight: 600;
+    padding-left: 0 !important;
+}
+
+.assinaturacoluna p {
+    color: #fff !important;
+    font-size: .71em !important;
+    padding-top: 3px;
+    padding-right: 0px;
+    padding-bottom: 3px;
+    padding-left: 27px;
+    margin: 4px;
+}
+
+p.assinaturaendereco {
+    background: url("../RES/ic_endereco.png") no-repeat left center;
+}
+
+p.assinaturafone {
+    background: url("../RES/ic_fone.png") no-repeat left center;
+}
+
+p.assinatura-copyright {
+    background: url("../RES/ic_copy.png") no-repeat left center;
+}
+
+.assinaturacoluna {
+    display: inline-block;
+    border-left: 1px solid #244579;
+    min-height: 110px;
+    padding: 0 1.2em;
+    overflow: auto;
+    vertical-align: top;
+}
+
+.coluna2 {
+    width: 100px;
+}
+
+.assinaturacoluna .face {
+    background: url("../RES/ic_facebook.png") no-repeat center center;
+}
+
+.coluna2 a {
+    display: inline-block;
+}
+
+.assinaturacoluna a {
+    display: block;
+    width: 45px;
+    height: 40px;
+    margin-top: 28px;
+}
+
+.assinaturacoluna .instagram {
+    background: url("../RES/ic_instagram.png") no-repeat center center;
+}
+
+.assinaturacoluna .youtube {
+    background: url("../RES/ic_youtube.png") no-repeat center center;
+}
+
+.assinaturacoluna .flickr {
+    background: url("../RES/ic_flickr.png") no-repeat center center;
+}
+
+.assinaturacoluna .android {
+    background: url("../RES/ic_android.png") no-repeat center center;
+}
+
+.assinaturacoluna .apple {
+    background: url("../RES/ic_apple.png") no-repeat center center;
 }
 
 .noticia-textos {
