@@ -1,0 +1,106 @@
+html, body {
+    height: 100%;
+    min-width: 1080px;
+    background: #f8f8f8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.brasao {
+    padding: 0px 20px 20px 20px;
+}
+
+#menucima {
+    padding: 10px;
+}
+
+#cabecalhologo {
+    display: flex;
+    height: 117px;
+    background-image: url(../RES/topo60.jpg);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#posicaologo{
+    float: left;
+    width: 560px;
+    display: block;
+    height: 117px;
+}
+
+#menu {
+    background-color: #5A84B7;
+}
+
+#menu ul li a{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul li {
+    padding: 13px 0px;
+    margin-right: 10px;
+}
+
+#menu ul li:hover{
+    background-color: #344C68;
+    
+}
+
+#form-itens input{
+    padding: 8px;
+    display: inline-block;
+}
+
+#conteudo {
+    display: block;
+    margin: 0 auto 50px;
+    width: 1000px;
+    padding: 0 10px;
+    min-height: 600px;
+    text-align: center;    
+}
+
+#conteudo a .bannerG{
+    width: 490px;
+    height: 130px;
+    margin: 25px 0px 15px 0px;
+}
+
+#conteudo a .bannerM{
+    margin: 5px;
+}
+
+#noticias span {
+    display: block;
+    width: 100%;
+}
+
+.campoConteudo a img {
+    width: 1000px;
+    height: 565px;
+}
+
+.noticia-textos {
+    padding: 2.5em;
+    position: absolute;
+    bottom: -10%;
+    background: rgba(5, 61, 110, 0.8);
+    color: #fff;
+    width: 920px;
+}
