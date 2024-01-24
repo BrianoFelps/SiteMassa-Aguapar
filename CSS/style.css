@@ -12,6 +12,15 @@ html, body {
     outline: none;
 }
 
+a {
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: #2367D2;
+    font-weight: normal;
+}
+
 header ul {
     display: flex;
     list-style: none;
@@ -76,6 +85,11 @@ header ul {
     text-align: center;    
 }
 
+#counteudo a img {
+    float: left;
+    clear: both;
+}
+
 #conteudo a .bannerG{
     width: 490px;
     height: 130px;
@@ -88,6 +102,30 @@ header ul {
 
 #noticias span {
     display: block;
+    width: 100%;
+}
+
+#informaçõesgerais {
+    background-color: #e5e5e5;
+    padding-top: 1.5em;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+#informaçõesgerais .barra {
+    text-align: center;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+#formas-contato-home{
+    border-top-width: 2em;
+    border-top-style: solid;
+    border-top-color: rgb(229, 229, 229);
+    margin-top: -2em;
     width: 100%;
 }
 
