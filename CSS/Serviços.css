@@ -1,0 +1,558 @@
+html, body {
+    height: 100%;
+    min-width: 1080px;
+    background: #f8f8f8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.brasao {
+    padding: 0px 20px 20px 20px;
+}
+
+#menucima {
+    padding: 10px;
+}
+
+#cabecalhologo {
+    display: flex;
+    height: 117px;
+    background-image: url(../RES/topo60.jpg);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#posicaologo{
+    float: left;
+    width: 560px;
+    display: block;
+    height: 117px;
+}
+
+#menu {
+    background-color: #5A84B7;
+}
+
+#menu ul li a{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul li {
+    padding: 13px 0px;
+    margin-right: 10px;
+}
+
+#menu ul li:hover{
+    background-color: #344C68;
+    
+}
+
+#form-itens input{
+    padding: 8px;
+    display: inline-block;
+}
+
+#main {
+    padding-top: 15px;
+}
+
+#conteudo {
+
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+
+    width: 1000px;
+
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+
+    min-height: 600px;
+}
+
+.paozin {
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+
+    height: 10px;
+
+    padding-top: 7px;
+    padding-right: 20px;
+    padding-bottom: 17px;
+    padding-left: 20px;
+
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(240, 240, 240);
+    border-right-color: rgb(240, 240, 240);
+    border-bottom-color: rgb(240, 240, 240);
+    border-left-color: rgb(240, 240, 240);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+
+    width: 960px;
+
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+
+.paozin {
+    padding-bottom: 0.5em;
+}
+
+.paozin a {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+div#midiascima {
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: white;
+
+    color: dodgerblue;
+
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(240, 240, 240);
+    border-right-color: rgb(240, 240, 240);
+    border-bottom-color: rgb(240, 240, 240);
+    border-left-color: rgb(240, 240, 240);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+
+    width: 960px;
+
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+
+    float: left;
+}
+
+#compartilhe {
+    float: right;
+    width: 140px;
+    padding-top: 5px;
+}
+
+
+div#Bloconotexto {
+
+    height: 130px;
+    width: 1000px;
+}
+
+.blocolimpo {
+
+    display: block;
+}
+
+div#Bloconotexto.blocolimpo:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+    color: #2367D2;
+}
+
+a {
+    text-decoration: none;
+    color: #2367D2;
+    font-weight: normal;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #2367D2;
+}
+
+p {
+    margin: 9px 0;
+    font-family: Verdana;
+    font-size: 12px;
+    color: #818181;
+    line-height: 22px;
+    font-weight: normal;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+* {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+    border-top-width: initial;
+    border-right-width: initial;
+    border-bottom-width: initial;
+    border-left-width: initial;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+}
+
+div.pontodevisao {
+    display: block;
+}
+
+a.caixadetextoaguapar {
+
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 290px;
+    height: 125px;
+    background-image: url("../RES/aguapar_box.png");
+    background-repeat: no-repeat;
+    float: left;
+    margin: 7px 0px 7px 3px;
+    position: relative;
+    display: block;
+
+}
+
+.caixadetextoaguapar img {
+
+    float: left;
+    margin: 15px 15px 25px 0;
+}
+
+.caixadetextoaguapar p {
+
+    line-height: 19px;
+    margin-top: 5px;
+}
+
+span.saiba_aguapar_box {
+    
+    color: #2367D2;
+    background-color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 12px;
+    position: absolute;
+    right: 5px;
+    bottom: 11px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    display: block;
+}
+
+span.saiba_aguapar_box:hover {
+
+    text-decoration: underline;
+    color: #2367D2;
+}
+
+#footer {
+    clear:both;
+}
+
+#informaçõesgerais {
+    background-color: #e5e5e5;
+    padding-top: 1.5em;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+#informaçõesgerais .barra {
+    text-align: center;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+#formas-contato-home{
+    border-top-width: 2em;
+    border-top-style: solid;
+    border-top-color: rgb(229, 229, 229);
+    margin-top: -2em;
+    width: 100%;
+}
+
+.auto {
+    font-family: kalinga;
+    background-color: #dfdfdf;
+    display: inline-block;
+    margin-bottom: 2em;
+}
+
+.auto h2{
+
+    font-family: Arial;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #226B74;
+    background-color: #d6d6d6;
+    padding: 10px;
+}
+
+.formas-contato-home ul {
+    height: 2em;
+    padding-top: 0.5em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+}
+
+.item-list ul {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0.75em;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.auto ul li {
+    list-style-type: none;
+    float: left;
+    font-family: kalinga;
+    color: #3a3a3a;
+    text-decoration: none;
+    margin-left: 10px;
+    width: 198px;
+}
+
+.item-list ul li{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0.25em;
+    margin-left: 1.5em;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.formas-contato-home .item-list ul li {
+    margin: 0.5em 0.5em 1em 0;
+    width: 156px;
+}
+
+.barra .item-list UL LI {
+    margin: 0.5em 0 0 1em; 
+    margin: 0.6em 0 0 0.5em;
+}
+
+.auto ul li a {
+    color: #3a3a3a;
+    text-decoration: none;
+    font-size: 12px;
+    list-style-type: none;
+}
+
+#informaçõesgerais .barra .auto img {
+    vertical-align: middle;
+}
+
+.formas-contato-home img {
+    float: left;
+    margin-right: 0.4em;
+}
+
+#informaçõesgerais {
+    background-color: #355993;
+    padding-bottom: 1.5em;
+}
+
+.assinatura {
+    width: 1020px;
+    margin: 0 auto;
+    background: url("../RES/logo-aguapar-br.png") no-repeat center left;
+    border-top: 1px solid #97b8eb;
+    padding: 2em 0 0.5em;
+    text-align: right;
+}
+
+.assinaturacoluna.endereco {
+    margin-right: 4em;
+}
+
+.assinaturacoluna {
+    display: inline-block;
+    border-left: 1px solid #244579;
+    min-height: 110px;
+    padding: 0 1.2em;
+    overflow: auto;
+    vertical-align: top;
+}
+
+#informaçõesgerais p {
+    color: #315a9c;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: left;
+    font-family: Arial;
+}
+
+p.assinaturanome {
+    font-size: .85em!important;
+    font-weight: 600;
+    padding-left: 0 !important;
+}
+
+.assinaturacoluna p {
+    color: #fff !important;
+    font-size: .71em !important;
+    padding-top: 3px;
+    padding-right: 0px;
+    padding-bottom: 3px;
+    padding-left: 27px;
+    margin: 4px;
+}
+
+p.assinaturaendereco {
+    background: url("../RES/ic_endereco.png") no-repeat left center;
+}
+
+p.assinaturafone {
+    background: url("../RES/ic_fone.png") no-repeat left center;
+}
+
+p.assinatura-copyright {
+    background: url("../RES/ic_copy.png") no-repeat left center;
+}
+
+.assinaturacoluna {
+    display: inline-block;
+    border-left: 1px solid #244579;
+    min-height: 110px;
+    padding: 0 1.2em;
+    overflow: auto;
+    vertical-align: top;
+}
+
+.coluna2 {
+    width: 100px;
+}
+
+.assinaturacoluna .face {
+    background: url("../RES/ic_facebook.png") no-repeat center center;
+}
+
+.coluna2 a {
+    display: inline-block;
+}
+
+.assinaturacoluna a {
+    display: block;
+    width: 45px;
+    height: 40px;
+    margin-top: 28px;
+}
+
+.assinaturacoluna .instagram {
+    background: url("../RES/ic_instagram.png") no-repeat center center;
+}
+
+.assinaturacoluna .youtube {
+    background: url("../RES/ic_youtube.png") no-repeat center center;
+}
+
+.assinaturacoluna .flickr {
+    background: url("../RES/ic_flickr.png") no-repeat center center;
+}
+
+.assinaturacoluna .android {
+    background: url("../RES/ic_android.png") no-repeat center center;
+}
+
+.assinaturacoluna .apple {
+    background: url("../RES/ic_apple.png") no-repeat center center;
+}
